@@ -1595,6 +1595,14 @@ and increase the contrast between border and odd row background sligthtly */
       </section>
    </div>
    </section>
+   <script>const toc = document.getElementById("toc");
+      toc.querySelector("h2").addEventListener("click", e => {
+         toc.classList.toggle("active");
+      });
+      toc.querySelector("nav").addEventListener("click", e => {
+         toc.classList.remove("active");
+      });
+   </script>
 </body>
 
 </html>
