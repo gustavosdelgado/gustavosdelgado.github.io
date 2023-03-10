@@ -5,57 +5,16 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>RFC 9110: HTTP Semantics</title>
-<meta content="Roy T. Fielding" name="author">
-<meta content="Mark Nottingham" name="author">
-<meta content="Julian Reschke" name="author">
+<title>Gustavo Delgado Resume</title>
 <meta content='
        
-   The Hypertext Transfer Protocol (HTTP) is a stateless application-level
-   protocol for distributed, collaborative, hypertext information systems.
-   This document describes the overall architecture of HTTP, establishes common
-   terminology, and defines aspects of the protocol that are shared by all
-   versions. In this definition are core protocol elements, extensibility
-   mechanisms, and the "http" and "https" Uniform Resource Identifier (URI)
-   schemes.
-       
-       
-   This document updates RFC 3864 and
-   obsoletes RFCs 2818, 7231, 7232, 7233,
-   7235, 7538, 7615, 7694, and portions of 7230.
+   This document is the RFC-style resume of Gustavo Delgado, a brazilian java back-end developer living abroad.
  
     ' name="description">
-<meta content="xml2rfc 3.12.10" name="generator">
-<meta content="Hypertext Transfer Protocol" name="keyword">
-<meta content="HTTP" name="keyword">
-<meta content="HTTP semantics" name="keyword">
-<meta content="HTTP content" name="keyword">
-<meta content="HTTP method" name="keyword">
-<meta content="HTTP status code" name="keyword">
-<meta content="9110" name="rfc.number">
-<!-- Generator version information:
-  xml2rfc 3.12.10
-    Python 3.6.15
-    appdirs 1.4.4
-    ConfigArgParse 1.4.1
-    google-i18n-address 2.4.0
-    html5lib 1.0.1
-    intervaltree 3.0.2
-    Jinja2 2.11.3
-    kitchen 1.2.6
-    lxml 4.7.1
-    MarkupSafe 2.0.1
-    pycairo 1.15.1
-    pycountry 19.8.18
-    pyflakes 2.1.1
-    PyYAML 5.4.1
-    requests 2.24.0
-    setuptools 40.5.0
-    six 1.14.0
-    WeasyPrint 52.5
--->
-<link href="rfc9110.xml" rel="alternate" type="application/rfc+xml">
-<link href="#copyright" rel="license">
+<meta content="Gustavo Delgado" name="keyword">
+<meta content="gustavosdelgado" name="keyword">
+<meta content="github.com/gustavosdelgado" name="keyword">
+
 <style type="text/css">/*
 
   NOTE: Changes at the bottom of this file overrides some earlier settings.
@@ -1200,69 +1159,27 @@ li > p:last-of-type {
 }
 </style>
 <link href="rfc-local.css" rel="stylesheet" type="text/css">
-<link href="https://dx.doi.org/10.17487/rfc9110" rel="alternate">
-  <link href="urn:issn:2070-1721" rel="alternate">
-  <link href="https://datatracker.ietf.org/doc/draft-ietf-httpbis-semantics-19" rel="prev">
   </head>
 <body>
-<script src="https://www.rfc-editor.org/js/metadata.min.js"></script>
-<table class="ears">
-<thead><tr>
-<td class="left">RFC 9110</td>
-<td class="center">HTTP Semantics</td>
-<td class="right">June 2022</td>
-</tr></thead>
-<tfoot><tr>
-<td class="left">Fielding, et al.</td>
-<td class="center">Standards Track</td>
-<td class="right">[Page]</td>
-</tr></tfoot>
-</table>
 <div id="external-metadata" class="document-information"></div>
 <div id="internal-metadata" class="document-information">
 <dl id="identifiers">
-<dt class="label-stream">Stream:</dt>
-<dd class="stream">Internet Engineering Task Force (IETF)</dd>
-<dt class="label-rfc">RFC:</dt>
-<dd class="rfc"><a href="https://www.rfc-editor.org/rfc/rfc9110" class="eref">9110</a></dd>
-<dt class="label-std">STD:</dt>
-<dd class="std">97</dd>
-<dt class="label-obsoletes">Obsoletes:</dt>
-<dd class="obsoletes">
-<a href="https://www.rfc-editor.org/rfc/rfc2818" class="eref">2818</a>, <a href="https://www.rfc-editor.org/rfc/rfc7230" class="eref">7230</a>, <a href="https://www.rfc-editor.org/rfc/rfc7231" class="eref">7231</a>, <a href="https://www.rfc-editor.org/rfc/rfc7232" class="eref">7232</a>, <a href="https://www.rfc-editor.org/rfc/rfc7233" class="eref">7233</a>, <a href="https://www.rfc-editor.org/rfc/rfc7235" class="eref">7235</a>, <a href="https://www.rfc-editor.org/rfc/rfc7538" class="eref">7538</a>, <a href="https://www.rfc-editor.org/rfc/rfc7615" class="eref">7615</a>, <a href="https://www.rfc-editor.org/rfc/rfc7694" class="eref">7694</a> </dd>
-<dt class="label-updates">Updates:</dt>
-<dd class="updates">
-<a href="https://www.rfc-editor.org/rfc/rfc3864" class="eref">3864</a> </dd>
-<dt class="label-category">Category:</dt>
-<dd class="category">Standards Track</dd>
-<dt class="label-published">Published:</dt>
+<dt class="label-email">E-mail</dt>
+<dd class="email">gustavodelgado@pm.me</dd>
+<dt class="label-github">Github:</dt>
+<dd class="rfc"><a href="https://www.github.com/gustavosdelgado" class="eref" target="_blank">@gustavosdelgado</a></dd>
+<dt class="label-linkedin">LinkedIn:</dt>
+<dd class="rfc"><a href="https://www.linkedin.com/in/gustavosdelgado" class="eref" target="_blank">@gustavosdelgado</a></dd>
+<dt class="label-updated">Last updated:</dt>
 <dd class="published">
-<time datetime="2022-06" class="published">June 2022</time>
-    </dd>
-<dt class="label-issn">ISSN:</dt>
-<dd class="issn">2070-1721</dd>
-<dt class="label-authors">Authors:</dt>
-<dd class="authors">
-<div class="author">
-      <div class="author-name">R. Fielding, <span class="editor">Ed.</span>
-</div>
-<div class="org">Adobe</div>
-</div>
-<div class="author">
-      <div class="author-name">M. Nottingham, <span class="editor">Ed.</span>
-</div>
-<div class="org">Fastly</div>
-</div>
-<div class="author">
-      <div class="author-name">J. Reschke, <span class="editor">Ed.</span>
-</div>
-<div class="org">greenbytes</div>
+   <time datetime="2023-03" class="updated">March 2023</time>
+</dd>
 </div>
 </dd>
 </dl>
 </div>
-<h1 id="rfcnum">RFC 9110</h1>
-<h1 id="title">HTTP Semantics</h1>
+<h1 id="rfcnum">Gustavo Delgado</h1><br/>
+<h3 id="title">Java back-end developer</h3>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">
