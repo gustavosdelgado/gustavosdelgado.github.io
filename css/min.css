@@ -431,6 +431,9 @@ nav.toc li {
     font-weight: 700;
 }
 
+#tech-stack {
+    text-decoration: underline;
+}
 /* make the index two-column on all but the smallest screens */
 @media (min-width: 600px) {
     .index ul {
