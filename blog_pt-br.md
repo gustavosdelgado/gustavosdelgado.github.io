@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Blog
+page_id: blog
+permalink: blog
+lang: pt-br
 ---
 <h1>Latest Posts</h1>
 

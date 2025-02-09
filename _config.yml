@@ -8,3 +8,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+plugins:
+  - jekyll-polyglot
+languages: ["en", "pt-br"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "files"]
+parallel_localization: true
+url: https://gustavosdelgado.github.io

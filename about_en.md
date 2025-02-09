@@ -1,10 +1,13 @@
 ---
 layout: default
 title: About
+page_id: about
+permalink: /about
+lang: en
 ---
 # Gustavo Delgado
 
-### Desenvolvedor Full-stack
+### Full-stack Developer
 
 ## Resumo
 
