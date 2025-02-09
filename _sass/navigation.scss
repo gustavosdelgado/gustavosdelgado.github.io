@@ -39,38 +39,12 @@
   color: black;
 }
 
-@media screen and (max-width: 310px) {
-  .site-navigation {
-    font-size: 0.9em;
-  } 
-}
+.site-navigation {
+  font-size: 5em;
+} 
 
-@media screen and (min-width: 320px) {
-  .site-navigation {
-    font-size: 1.4em;
-  } 
-}
-
-@media screen and (min-width: 480px) {
+@media screen and (any-hover) {
   .site-navigation {
     font-size: 2em;
-  } 
-}
-
-@media screen and (min-width: 600px) {
-  .site-navigation {
-    font-size: 2.3em;
-  } 
-}
-
-@media screen and (min-width: 900px) {
-  .site-navigation {
-    font-size: 1.8em;
-  } 
-}
-
-@media screen and (min-width: 1200px) {
-  .site-navigation {
-    font-size: 2.2em;
   } 
 }
