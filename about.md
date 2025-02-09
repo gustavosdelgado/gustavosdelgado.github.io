@@ -18,7 +18,7 @@ Com cinco anos de experiência em ambientes ágeis, tenho trabalhado como engenh
 - **Fuso horário:** GMT+10
 - **Atualizado em:** Agosto 2023
 - **Outras versões:** [English](../)
-- **Versão PDF:** [Download](../files/Gustavo_Delgado_CV_pt.pdf)
+- **Versão PDF:** [Download]({{site.baseurl}}/files/Gustavo_Delgado_CV_pt.pdf)
 
 ## Experiência
 
