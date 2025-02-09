@@ -1,14 +1,17 @@
 .content {
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 3em;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.8em;
 }
 
-@media screen and (any-hover) {
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (-min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (min-device-pixel-ratio: 3) {
     .content {
-        margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.8em;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 3em;
     }
 }
