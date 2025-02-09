@@ -1,9 +1,9 @@
-{% assign navigation = site.data.navigation %}
+{% assign header = site.data.header %}
 
-{% if navigation %}
-  <nav class="site-navigation" role="navigation">
+{% if header %}
+  <nav class="site-header">
     <ul>
-    {% for item in site.data.navigation %}
+    {% for item in site.data.header %}
       <li {% if page.url == item.link %} class="active"{% endif %} >
         {% if item.link contains 'http' %}
           <a href="{{ item.link }}">
@@ -18,4 +18,5 @@
     {% endfor %}
     </ul>
   </nav>
+
 {% endif %}

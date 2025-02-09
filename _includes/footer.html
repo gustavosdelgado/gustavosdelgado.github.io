@@ -1,0 +1,18 @@
+{% assign header = site.data.header %}
+
+{% if header %}
+  <nav class="site-footer">
+    <ul>
+    <li class="language-switcher">
+      {% for tongue in site.languages %}
+        {% if tongue != site.active_lang %}
+          <a class="btn" {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %}>
+            <i class="fas fa-globe"></i> {{ tongue == 'en' ? 'en' : 'pt-br' }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </li>
+    </ul>
+  </nav>
+{% endif %}
+

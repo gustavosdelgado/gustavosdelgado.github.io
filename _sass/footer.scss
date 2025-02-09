@@ -1,4 +1,4 @@
-.site-navigation {
+.site-footer {
   margin-top: 2rem;
   padding: 0 1rem;
   &:hover,
@@ -9,7 +9,7 @@
   }
 }
 
-.site-navigation ul {
+.site-footer ul {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +17,7 @@
   padding-left: 0;
 }
 
-.site-navigation li {
+.site-footer li {
   list-style: none;
   font-weight: bold;
   font-variant: small-caps;
@@ -27,7 +27,7 @@
   }
 }
 
-.site-navigation a {
+.site-footer a {
   display: block;
   padding: .25em .5em;
   text-decoration: none;
@@ -39,15 +39,38 @@
   color: black;
 }
 
-.site-navigation {
+.site-footer {
   font-size: 2em;
 } 
+
+.language-switcher {
+  margin-top: 10px;
+}
+
+.language-switcher .btn {
+  display: inline-flex;
+  font-size: 0.5em;
+  align-items: center;
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.language-switcher .btn i {
+  margin-right: 5px;
+}
+
+.site-footer {
+  padding: 1rem;
+  text-align: center;
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3), 
        only screen and (-min--moz-device-pixel-ratio: 3), 
        only screen and (-o-min-device-pixel-ratio: 3/1), 
        only screen and (min-device-pixel-ratio: 3) {
-  .site-navigation {
+  .site-footer {
     font-size: 5em;
   } 
 }
