@@ -1,0 +1,76 @@
+.site-navigation {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  &:hover,
+  &:focus-within {
+    a {
+      opacity: .7;
+    }
+  }
+}
+
+.site-navigation ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.site-navigation li {
+  list-style: none;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 0;
+  &.active a {
+    text-decoration: underline;
+  }
+}
+
+.site-navigation a {
+  display: block;
+  padding: .25em .5em;
+  text-decoration: none;
+  transition: opacity .125s ease-in-out;
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+  color: black;
+}
+
+@media screen and (max-width: 310px) {
+  .site-navigation {
+    font-size: 0.9em;
+  } 
+}
+
+@media screen and (min-width: 320px) {
+  .site-navigation {
+    font-size: 1.4em;
+  } 
+}
+
+@media screen and (min-width: 480px) {
+  .site-navigation {
+    font-size: 2em;
+  } 
+}
+
+@media screen and (min-width: 600px) {
+  .site-navigation {
+    font-size: 2.3em;
+  } 
+}
+
+@media screen and (min-width: 900px) {
+  .site-navigation {
+    font-size: 1.8em;
+  } 
+}
+
+@media screen and (min-width: 1200px) {
+  .site-navigation {
+    font-size: 2.2em;
+  } 
+}
